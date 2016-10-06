@@ -1,1 +1,0 @@
-[06-Oct-2016 19:25:31 UTC] PHP Fatal error:  Call to a member function do_uploads_dir() on null in /home2/hostbybe/public_html/content/plugins/user-pro/index.php on line 60

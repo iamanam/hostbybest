@@ -1,4 +1,6 @@
-
+/bash_hosty_bin
+*log
+.log*
 /shared
 local-config.php
 /sql-dump-*.sql
