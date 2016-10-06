@@ -1,0 +1,29 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "autoload":{},
+  "require": {
+    "php": ">=5.4",
+    "wpackagist-plugin/debug-bar": "^0.8.4",
+    "wpackagist-plugin/google-pagespeed-insights": "^1.0",
+    "wpackagist-plugin/p3-profiler": "1.5.3.9",
+    "wpackagist-plugin/query-monitor": "^2.13",
+    "wpackagist-plugin/stream": "^3.0",
+    "wpackagist-plugin/wp-slimstat": "^4.4",
+    "wpackagist-plugin/wp-smushit": "^2.4"
+  },
+  "require-dev":{
+    
+  },
+  "extra": {
+  	"wordpress-install-dir": "wp",
+  	"installer-paths":{
+  	   "content/plugins/{$name}/": ["type:wpackagist-plugin"],
+       "content/plugins/{$name}/": ["type:wordpress-plugin"]
+  	}
+  }
+}
