@@ -6,7 +6,8 @@ local-config.php
 /content/upgrade/
 .DS_Store
 /content/plugins/
-/content/uploads/
+/content/uploads/20*
+/*.sql
 /content/backups*/
 /vendor
 /content/mu-plugins/
