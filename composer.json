@@ -22,8 +22,7 @@
   "extra": {
   	"wordpress-install-dir": "wp",
   	"installer-paths":{
-  	   "content/plugins/{$name}/": ["type:wpackagist-plugin"],
-       "content/plugins/{$name}/": ["type:wordpress-plugin"]
-  	}
+  	   "content/plugins/{$name}/": ["type:wpackagist-plugin"]
+  	     	}
   }
 }
